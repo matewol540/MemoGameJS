@@ -50,7 +50,7 @@ function buttonPressed(currentColour,currentIndex) {
       }
   } else {
     animate("#" + currentColour,"pressedWrong");
- 
+    manageEndGame();
     
   }
 }
